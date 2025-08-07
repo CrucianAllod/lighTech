@@ -22,7 +22,7 @@ DEBUG=True
 DB_NAME='your_db_name_here'
 DB_USER='your_db_user_here'
 DB_PASSWORD='your_db_password_here'
-DB_HOST='db' #если запускатесь через docker comose 
+DB_HOST='db' #если запускатесь через docker compose 
 DB_PORT='your_db_port_here'
 
 ALLOWED_HOSTS='localhost,127.0.0.1'
@@ -32,7 +32,7 @@ BLACKLIST_AFTER_ROTATION=True
 ACCESS_TOKEN_LIFETIME_MINUTES=10
 REFRESH_TOKEN_LIFETIME_MINUTES=1440
 
-REDIS_URL='redis://redis:6379/1' #если запускатесь через docker comose 
+REDIS_URL='redis://redis:6379/1' #если запускатесь через docker compose 
 ```
 3. Запустите проект:
 ```
