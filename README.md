@@ -98,6 +98,7 @@ docker-compose run web pytest
 - Swagger UI: `http://localhost:8000/api/docs/`
 - ReDoc: `http://localhost:8000/api/redoc/`
 ---
+
 # **Структура проекта**
 ```bash
 lighTech/
@@ -118,6 +119,7 @@ lighTech/
 ├── .env.example      # Шаблон переменных окружения
 └── requirements.txt  # Зависимости Python
 ```
+
 # **Технологический стек**
 
 - **Backend**: Django 5.2, Django REST Framework
