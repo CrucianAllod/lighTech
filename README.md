@@ -17,7 +17,7 @@ cd lighttech
 2. Создайте файл `.env` на основе `.env.example`:
 3. Запустите проект:
 ```
-docker-compose up --build
+docker compose up --build
 ```
 4. После запуска приложение будет доступно по адресу:
     - API: `http://localhost:8000`
@@ -25,7 +25,7 @@ docker-compose up --build
     - Админка: `http://localhost:8000/admin/`
 5. Для создания суперпользователя (в отдельном терминале):
 ```
-docker-compose run web python manage.py createsuperuser
+docker compose run web python manage.py createsuperuser
 ```
 
 ---
