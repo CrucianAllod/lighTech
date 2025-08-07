@@ -15,6 +15,25 @@ git clone https://github.com/yourusername/lighttech.git
 cd lighttech
 ```
 2. Создайте файл `.env` на основе `.env.example`:
+```bash
+SECRET_KEY='your_secret_key_here'
+DEBUG=True
+
+DB_NAME='your_db_name_here'
+DB_USER='your_db_user_here'
+DB_PASSWORD='your_db_password_here'
+DB_HOST='db' #если запускатесь через docker comose 
+DB_PORT='your_db_port_here'
+
+ALLOWED_HOSTS='localhost,127.0.0.1'
+
+ROTATE_REFRESH_TOKENS=True
+BLACKLIST_AFTER_ROTATION=True
+ACCESS_TOKEN_LIFETIME_MINUTES=10
+REFRESH_TOKEN_LIFETIME_MINUTES=1440
+
+REDIS_URL='redis://redis:6379/1' #если запускатесь через docker comose 
+```
 3. Запустите проект:
 ```
 docker compose up --build
